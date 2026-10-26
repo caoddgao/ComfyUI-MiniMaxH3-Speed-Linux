@@ -1,4 +1,4 @@
-# TE-Speed-MiniMaxH3-Linux
+# ComfyUI-MiniMaxH3-Speed-Linux
 
 MiniMax H3 视频+音频联合生成的推理加速节点，可在 Linux 上运行，是开源 Python 实现。
 
@@ -38,4 +38,13 @@ MiniMax H3 视频+音频联合生成的推理加速节点，可在 Linux 上运�
 
 ## 安装
 
-放到 `ComfyUI/custom_nodes/TE-Speed-MiniMaxH3-Linux`，重启 ComfyUI。不需要额外的依赖。需要支持 MiniMax H3 的新版 ComfyUI。
+```bash
+cd ComfyUI/custom_nodes
+git clone https://github.com/caoddgao/ComfyUI-MiniMaxH3-Speed-Linux.git
+```
+
+重启 ComfyUI。不需要额外的依赖。需要支持 MiniMax H3 的新版 ComfyUI。
+
+## 许可证
+
+Apache-2.0
